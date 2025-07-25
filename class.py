@@ -4,3 +4,11 @@ def func():
 print("Before func() is called")    
 func()
 print("After func() is called")
+
+
+#DATE
+def getDate(d, m, y):
+    return d+"-"+m+"-"+y
+print("India got independence on")
+d = getDate("15","08","1947")
+print(d)
